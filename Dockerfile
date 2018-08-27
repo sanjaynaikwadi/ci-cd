@@ -1,4 +1,4 @@
-    
+# Pick the base image    
 From jenkins:latest 
 
 # Info about MAINTAINER
