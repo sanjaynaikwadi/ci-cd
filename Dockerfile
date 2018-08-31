@@ -7,7 +7,7 @@ MAINTAINER sanjay.naikwadi@gmail.com
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 # Distributed Builds plugins
-RUN /usr/local/bin/install-plugins.sh ssh-slaves
+#RUN /usr/local/bin/install-plugins.sh ssh-slaves
 
 # install Notifications and Publishing plugins
 RUN /usr/local/bin/install-plugins.sh email-ext
