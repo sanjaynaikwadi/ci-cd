@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: jenkins
-        image: sanjaynaikwadi/ci-cd-test:dev-${BUILD_NUMBER}
+        image: sanjaynaikwadi/ci-cd-test:${environment}-${BUILD_NUMBER}
         ports:
         - containerPort: 8080
